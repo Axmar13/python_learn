@@ -1,0 +1,9 @@
+1- Comprobar cantidad de filas en la matriz
+2- Comprobar cantidad de columnas en la matriz
+3- Comprobar que los caracteres sean los aceptados y cuenta la cantidad de 'X' y 'O'
+4- Comprobar si el tablero está vacio
+5- Invertir las columnas en filas
+6- Comprobar si hay ganadores en filas y columnas
+7- Obtener y comprobar si hay ganadores en las diagonales
+8- Comprobar la diferencia de turnos y el posible empate
+9- Retornar el resultado de la partida

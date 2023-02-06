@@ -1,0 +1,46 @@
+print("1. Suma")
+print("2. Resta")
+print("3. Multiplicación")
+print("4. División")
+print("5. División entera")
+print("6. Exponente")
+print("7. Módulo o resto")
+numero = int(input("Introduce una opción: "))
+if numero == 1:
+    print("Elegiste suma.\n")
+    numero = int(input("Ingrese el primer número: "))
+    numero += int(input("Ingrese el segundo número: "))
+    print("El resultado de la suma es: ", numero)
+elif numero == 2:
+    print("Elegiste resta.\n")
+    numero = int(input("Ingrese el primer número: "))
+    numero -= int(input("Ingrese el segundo número: "))
+    print("El resultado de la resta es: ", numero)
+elif numero == 3:
+    print("Elegiste multiplicación.\n")
+    numero = int(input("Ingrese el primer número: "))
+    numero *= int(input("Ingrese el segundo número: "))
+    print("El resultado de la multplicación es: ", numero)
+elif numero == 4:
+    print("Elegiste división.\n")
+    numero = int(input("Ingrese el primer número: "))
+    numero /= int(input("Ingrese el segundo número: "))
+    print("El resultado de la división es: ", numero)
+elif numero == 5:
+    print("Elegiste división entera.\n")
+    numero = int(input("Ingrese el primer número: "))
+    numero //= int(input("Ingrese el segundo número: "))
+    print("El resultado de la división entera es: ", numero)
+elif numero == 6:
+    print("Elegiste exponente.\n")
+    numero = int(input("Ingrese el primer número: "))
+    numero **= int(input("Ingrese el segundo número: "))
+    print("El resultado de la potencia es: ", numero)
+elif numero == 7:
+    print("Elegiste módulo o resto.\n")
+    numero = int(input("Ingrese el primer número: "))
+    numero %= int(input("Ingrese el segundo número: "))
+    print("El resultado del resto es: ", numero)
+else:
+    print("La opción no es correcta. (1 - 7)")
+print("Fin.")
